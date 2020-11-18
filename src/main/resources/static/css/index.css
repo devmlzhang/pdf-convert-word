@@ -1,0 +1,76 @@
+*,html{
+    font-size: 16px;
+    font-family: 微软雅黑;
+    padding: 0;
+    margin: 0;
+}
+.homeTitle{
+    font-size: 20px;
+    line-height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    width: 100%;
+    background: #fff;
+}
+.goBack{
+    position: absolute;
+    left: 10px;
+    text-decoration: none;
+    color: #409EFF;
+    /*font-family: cursive;*/
+    font-size: 13px;
+}
+.homeBody{
+    padding-top: 50px;
+}
+.homeIndex{
+    padding: 0 10px;
+}
+.homeIndexTitle{
+    font-size: 18px;
+    line-height: 40px;
+    border-bottom: 1px solid #409EFF;
+}
+.homeIndexDis{
+    font-size: 18px;
+    line-height: 40px;
+    color: rgb(17, 17, 17);
+    font-weight: 700;
+}
+.homeIndexBody{
+    display: flex;
+    margin: 5px 0;
+    line-height: 25px;
+}
+.homeIndexBody-l{
+    flex: 1;
+}
+.homeIndexBody-r{
+    flex: 2;
+    text-align: right;
+}
+.homeIndexBody-r.more a{
+    color: #409EFF;
+    cursor: pointer;
+    text-align: right;
+    text-decoration: none;
+}
+.homeIndexBody a button{
+    background: #409EFF;
+    width: 100%;
+    border: 1px solid #409EFF;
+    line-height: 40px;
+    margin-top: 20px;
+    color: #fff;
+}
+.homeIndexBody a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+}
+.homeIndex .pdf{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}

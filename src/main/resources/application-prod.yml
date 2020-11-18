@@ -1,0 +1,36 @@
+### 端口号
+server:
+  port: 8092
+
+### 数据源
+spring:
+  application:
+    name: PdfConvertWord
+  rabbitmq:
+    host: 192.168.3.123
+    #username: ha_car
+    username: guest
+    #password: ha16**
+    password: guest
+    #virtual-host: /ha
+    virtual-host: /
+  redis:
+    host: 192.168.3.123
+    port: 6379
+  ### 模版引擎
+  thymeleaf:
+    prefix: classpath:/templates/
+    cache: false
+    encoding: UTF-8
+    mode: HTML5
+    suffix: .html
+  mvc:
+    static-path-pattern: /static/**
+  web:
+    resources:
+      static-locations: classpath:/templates/,classpath:/static/
+
+
+
+
+profiles: prod
